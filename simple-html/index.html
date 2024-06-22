@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dog Photo App</title>
+</head>
+<body>
+    <main>
+        <h1>Dog App</h1>
+    
+    <section>
+        <h2>Dogs Photos</h2>
+                <!-- TODO: Add link to cat photos -->
+
+        <p>See more 
+            <a href="https://www.pexels.com/search/dog/" target="_blank"> Dog Photos</a>
+            in gallery</p>
+            <a href="https://www.pexels.com/search/dog/">
+                <img src="https://www.pexels.com/photo/happy-owner-having-fun-with-border-collie-on-lawn-7210692/" alt=" A cute and sweet black and white Dog">
+
+            </a>
+    </section>
+    <section>
+        <h2>Dog lists</h2>
+        <h3>Things Dog love</h3>
+        <ul>
+            <li>meat</li>
+            <li>Ball</li>
+            <li>pool</li>
+        </ul>
+        <figure>
+            <img src="https://www.google.com/search?sca_esv=0daf081118d1a5ee&rlz=1C1GCEA_enIR1055IR1055&sxsrf=ADLYWIKeTX4i-CZVCcxhSHlI0dhicXcwrQ:1719086209801&q=bone&udm=2&fbs=AEQNm0Aa4sjWe7Rqy32pFwRj0UkWd8nbOJfsBGGB5IQQO6L3J_86uWOeqwdnV0yaSF-x2joZDvir2QxhZkTA8rK1etu4ohtqlTKXOQ56HmFa2r_epkbRAe7iB17TPYYRmar9NQbtqLCypDKnkds0QbbF2aLJ8b6KqDHGpfrsETgDV5kKa710n491edL88sEzMXSG1Wpm6jkA&sa=X&ved=2ahUKEwiGg_qW_--GAxXHVaQEHffSCbMQtKgLegQICRAB&biw=1920&bih=953&dpr=1#vhid=5qCW3fsZeV3zOM&vssid=mosaic"
+             alt=" A bone what dog like it">
+             <figcaption>Dogs <em>love</em> bone</figcaption>
+        </figure>
+
+    </section>
+
+    <section>
+        <h2>Dog form</h2>
+        <form action="https://freecatphotoapp.com/submit-cat-photo">
+            <fieldset>
+                <legend>is your dog indoor or outdoor?</legend>
+                <label >
+                    <input 
+                    type="radio"
+                    id="indoor"
+                    name="indoor-outdoor"
+                    value="indoor"
+                    checked
+                    >indoor
+                </label>
+                <label >
+                    <input 
+                    type="radio"
+                    id="outdoor"
+                    name="indoor-outdoor"
+                    value="outdoor"
+                    > outdoor
+                </label>
+            </fieldset>
+            <fieldset>
+                <figcaption>what's your dog personality?</figcaption>
+                <input 
+                id="loving" 
+                type="checkbox"
+                name="personality"
+                value="loving"
+                checked
+                >
+                <label for="loving">loving</label>
+                <input type="checkbox" id="lazy" value="lazy" name="personality">
+                <label for="lazy">lazy</label>
+                <input type="checkbox" id="energetic" value="energetic" name="personality">
+                <label for="energetic">energetic</label>
+            </fieldset>
+            <input type="text" name="dogphotourl" id="dog photo url" required>
+            <button type="submit">Submit</button>
+
+
+        </form>
+    </section>
+</main>
+
+<footer>
+    <p>No copyright
+    <a href="https://www.pexels.com/search/dog/">pexels.com</a>    
+    </p>
+</footer>
+
+</body>
+</html>
